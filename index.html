@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/tabs.css">
+    <link rel="stylesheet" href="styles/slider.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Tabs -->
+    <h1>TABS</h1>
+    <div class="tabs-block-wrapper">
+        <div id="tabs">
+            <div class="tab-btn active" data-btn="1">Tab1</div>
+            <div class="tab-btn" data-btn="2">Tab2</div>
+            <div class="tab-btn" data-btn="3">Tab3</div>
+        </div>
+
+        <div id="contents">
+            <div class="content active" data-content="1">Content 1</div>
+            <div class="content" data-content="2">Content 2</div>
+            <div class="content" data-content="3">Content 3
+                <div id="main-tabs">
+                    <div class="main-tab-btn active" data-mainbtn="1">Tab1</div>
+                    <div class="main-tab-btn" data-mainbtn="2">Tab2</div>
+                </div>
+                <div id="main-contents">
+                    <div class="main-content active" data-maincontent="1">Content 1</div>
+                    <div class="main-content" data-maincontent="2">Content 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider-->
+    <h2>Slider</h2>
+    <div class="flex-wrapper">
+        <div class="slider-wrapper">
+            <div class="slide active-slide">
+                <img src="img/img_1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/img_2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/img_3.jpg" alt="">
+            </div>
+            <div id="btn-prev"></div>
+            <div id="btn-next"></div>
+        </div>
+    </div>
+    <div class="dots-wrapper">
+        <span class="dot active-slide"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    </div>
+
+
+    <script src="styles/tabs.js"></script>
+    <script src="styles/slider.js"></script>
+</body>
+
+</html>
