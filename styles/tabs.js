@@ -1,7 +1,7 @@
 const tabs = document.getElementById('tabs');
 const content = document.querySelectorAll('.content');
 const mainTabs = document.getElementById('main-tabs');
-const mainContents = document.querySelectorAll('.main-contents');
+const mainContents = document.querySelectorAll('.main-content');
 
 
 const tab = () => {
